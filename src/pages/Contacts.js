@@ -9,7 +9,7 @@ import { FaGithubSquare } from "react-icons/fa"
 const Contacts = () => {
   return (
     <div className="contacts-con">
-      <h3>Contacts</h3>
+      <h3 id='contacts'>Contacts</h3>
       <div className="contacts-list">
         <ul>
             <li>

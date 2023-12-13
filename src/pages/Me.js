@@ -1,7 +1,7 @@
 
 const Me = () => {
     return ( 
-        <div className='me-con'>
+        <div className='me-con'  id="me">
             <div className="me-text">
                 <h3>Hi, I'm</h3>
                 <h1>Addis Fanta</h1>

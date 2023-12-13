@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom'
 const Projects = () => {
   return (
     <div className="projects-con">
-      <h3> <FaCode className="project-icon" />Projects</h3>
+      <h3 id='projects'> <FaCode className="project-icon" />Projects</h3>
       <div className="project-list">
         <div className="project ishare">
             <h4>ISHARE</h4>

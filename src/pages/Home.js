@@ -10,11 +10,11 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="sub-container home-con">
-        <Me />
-        <Services />
-        <Skills />
-        <Projects />
-        <Contacts />
+        <Me id='me'/>
+        <Services id='contacts'/>
+        <Skills id='skills'/>
+        <Projects id='projects'/>
+        <Contacts id='contacts'/>
       </div>
     </div>
   )

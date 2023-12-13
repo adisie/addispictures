@@ -1,6 +1,5 @@
 
 import { FaRegHandshake } from "react-icons/fa"
-import { FaDesktop } from "react-icons/fa6";
 
 const Services = () => {
   return (

@@ -1,4 +1,4 @@
-import { GoGear } from "react-icons/go"
+
 
 // skills
 import Spinner from "./sub-pages/skills/Spinner"
@@ -8,7 +8,7 @@ import ThemeSwitcher from "./sub-pages/skills/ThemeSwitcher"
 const Skills = () => {
     return ( 
         <div className="skills-con">
-            <h3>CSS shows</h3>
+            <h3 id='skills'>CSS shows</h3>
             <div className="skill-list">
                 <Spinner />
                 <FormValidation />

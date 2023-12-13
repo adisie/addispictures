@@ -123,6 +123,7 @@ header .header .user-container .profile-img {
   width: 100%;
   height: 100%;
   overflow: auto;
+  scroll-behavior: smooth;
 }
 .home-container .home-con::-webkit-scrollbar {
   width: 3px;
@@ -164,7 +165,7 @@ header .header .user-container .profile-img {
   flex-grow: 1;
   width: 50%;
   height: 370px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.138), rgba(0, 0, 0, 0.187)), url("../images/addis-1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.138), rgba(0, 0, 0, 0.187)), url("D:/projects/react-profile/portfolio-i/src/assets/images/addis-1.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -198,7 +199,7 @@ header .header .user-container .profile-img {
   .me-con .me-img {
     width: 100%;
     height: 270px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.261), rgba(0, 0, 0, 0.319)), url("../images/addis-7.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.261), rgba(0, 0, 0, 0.319)), url("D:/projects/react-profile/portfolio-i/src/assets/images/addis-7.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -237,7 +238,7 @@ header .header .user-container .profile-img {
   .me-con .me-img {
     width: 100%;
     height: 270px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.261), rgba(0, 0, 0, 0.319)), url("../images/addis-9.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.261), rgba(0, 0, 0, 0.319)), url("D:/projects/react-profile/portfolio-i/src/assets/images/addis-9.jpg");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -374,10 +375,9 @@ header .header .user-container .profile-img {
   }
 }
 .skills-con {
-  width: 100%;
-  height: max-content;
-  margin-bottom: 0.45em;
-  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .skills-con h3 {
   text-align: center;
@@ -394,21 +394,26 @@ header .header .user-container .profile-img {
   margin-right: 0.25em;
 }
 .skills-con .skill-list {
+  width: 100%;
+  height: 100%;
+  margin: 0.13em;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 0.35em;
 }
 .skills-con .skill-list .spinner-con {
+  grid-column-start: 1;
+  grid-column-end: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0.3em;
 }
 .skills-con .skill-list .spinner-con h4 {
   margin: 0.35em;
   text-align: center;
 }
 .skills-con .skill-list .spinner-con .spinner {
-  width: 80%;
+  width: 100%;
   height: 250px;
   background: rgb(0, 0, 0);
   border-radius: 0.35em;
@@ -470,7 +475,10 @@ header .header .user-container .profile-img {
   font-weight: bold;
 }
 .skills-con .skill-list .form-con {
-  width: 100%;
+  padding: 0.3em;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  flex-grow: 1;
 }
 .skills-con .skill-list .form-con h4 {
   display: flex;
@@ -574,9 +582,11 @@ header .header .user-container .profile-img {
   justify-content: center;
 }
 .skills-con .skill-list .theme-con {
-  width: 100%;
   grid-column-start: 1;
   grid-column-end: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .skills-con .skill-list .theme-con h4 {
   display: flex;
@@ -587,7 +597,6 @@ header .header .user-container .profile-img {
 }
 .skills-con .skill-list .theme-con .template {
   margin: 0.35em;
-  height: 200px;
   display: flex;
   flex-direction: column;
 }
@@ -624,9 +633,11 @@ header .header .user-container .profile-img {
 }
 .skills-con .skill-list .theme-con .template .template-content {
   width: 100%;
+  height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 12px;
+  padding-bottom: 1.75em;
 }
 .skills-con .skill-list .theme-con .template .template-content .cont-lr {
   width: 95%;
@@ -645,16 +656,11 @@ header .header .user-container .profile-img {
 }
 
 @media screen and (max-width: 680px) {
-  .skill-list .spinner-con {
+  .skills-con .skill-list .spinner-con,
+  .skills-con .skill-list .form-con,
+  .skills-con .skill-list .theme-con {
     grid-column-start: 1;
     grid-column-end: 3;
-  }
-  .skill-list .form-con {
-    grid-column-start: 1;
-    grid-column-end: 3;
-  }
-  .skill-list .form-con .form .pop-up {
-    left: 15%;
   }
 }
 @media screen and (max-width: 460px) {
@@ -744,7 +750,7 @@ header .header .user-container .profile-img {
   width: 100%;
 }
 .projects-con .project-list .project.ishare {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.47)), url("../images/share-4.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.47)), url("D:/projects/react-profile/portfolio-i/src/assets/images/share-4.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -765,7 +771,7 @@ header .header .user-container .profile-img {
   background: rgba(0, 0, 0, 0.559);
 }
 .projects-con .project-list .project.gabi-store {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.118)), url("../images/gabi-2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.118)), url("D:/projects/react-profile/portfolio-i/src/assets/images/gabi-2.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -781,15 +787,7 @@ header .header .user-container .profile-img {
   margin-top: 0.75em;
 }
 
-@media screen and (max-width: 725px) {
-  .projects-con {
-    margin-top: 30px;
-  }
-}
 @media screen and (max-width: 600px) {
-  .projects-con {
-    margin-top: 60px;
-  }
   .projects-con .project.ishare,
   .projects-con .project.gabi-store {
     width: 90%;
@@ -799,41 +797,6 @@ header .header .user-container .profile-img {
   }
   .projects-con .project.gabi-store button {
     margin-bottom: 0.75em;
-  }
-}
-@media screen and (max-width: 500px) {
-  .projects-con {
-    margin-top: 90px;
-  }
-}
-@media screen and (max-width: 462px) {
-  .projects-con {
-    margin-top: 160px;
-  }
-}
-@media screen and (max-width: 406px) {
-  .projects-con {
-    margin-top: 200px;
-  }
-}
-@media screen and (max-width: 368px) {
-  .projects-con {
-    margin-top: 230px;
-  }
-}
-@media screen and (max-width: 312px) {
-  .projects-con {
-    margin-top: 260px;
-  }
-}
-@media screen and (max-width: 302px) {
-  .projects-con {
-    margin-top: 290px;
-  }
-}
-@media screen and (max-width: 274px) {
-  .projects-con {
-    margin-top: 320px;
   }
 }
 .contacts-con {
