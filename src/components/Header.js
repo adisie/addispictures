@@ -8,12 +8,12 @@ const Header = () => {
     <header>
       <div className="sub-container header">
         <div className="site-logo">
-          <NavLink  className='home-link'>addisPictures</NavLink>
+          <NavLink to='/' className='home-link'>addisPictures</NavLink>
         </div>
         <nav className="navigations">
           <ul>
             <li>
-              <NavLink  className='link' >Home</NavLink>
+              <NavLink to='/' className='link' >Home</NavLink>
             </li>
             <li>
               <NavLink className='link' >Skills</NavLink>
