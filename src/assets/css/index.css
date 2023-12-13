@@ -478,7 +478,6 @@ header .header .user-container .profile-img {
   padding: 0.3em;
   grid-column-start: 2;
   grid-column-end: 3;
-  flex-grow: 1;
 }
 .skills-con .skill-list .form-con h4 {
   display: flex;
@@ -532,6 +531,7 @@ header .header .user-container .profile-img {
 .skills-con .skill-list .form-con .form form .input-controll {
   width: 50%;
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   align-items: center;
   margin: 0.25em;
@@ -655,12 +655,31 @@ header .header .user-container .profile-img {
   padding: 0.35em;
 }
 
+@media screen and (max-width: 750px) {
+  .skills-con .skill-list .form-con .form form .input-controll {
+    width: 70%;
+  }
+}
 @media screen and (max-width: 680px) {
   .skills-con .skill-list .spinner-con,
   .skills-con .skill-list .form-con,
   .skills-con .skill-list .theme-con {
     grid-column-start: 1;
     grid-column-end: 3;
+  }
+  .skills-con .skill-list .form-con .form form {
+    width: 75%;
+  }
+  .skills-con .skill-list .form-con .form form .input-controll {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 570px) {
+  .skills-con .skill-list .form-con .form form {
+    width: 75%;
+  }
+  .skills-con .skill-list .form-con .form form .input-controll {
+    width: 70%;
   }
 }
 @media screen and (max-width: 460px) {
@@ -676,6 +695,14 @@ header .header .user-container .profile-img {
     width: 95%;
     grid-column-start: 1;
     grid-column-end: 3;
+  }
+}
+@media screen and (max-width: 400px) {
+  .skills-con .skill-list .form-con .form form {
+    width: 95%;
+  }
+  .skills-con .skill-list .form-con .form form .input-controll {
+    width: 85%;
   }
 }
 .projects-con {
