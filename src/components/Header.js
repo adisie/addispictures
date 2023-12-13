@@ -1,4 +1,4 @@
-
+import {NavLink} from 'react-router-dom'
 // my image
 import myProfileImage from '../assets/images/haddis_23.jpg'
 
@@ -8,21 +8,21 @@ const Header = () => {
     <header>
       <div className="sub-container header">
         <div className="site-logo">
-          <a  className='home-link'>addisPictures</a>
+          <NavLink  className='home-link'>addisPictures</NavLink>
         </div>
         <nav className="navigations">
           <ul>
             <li>
-              <a  className='link' >Home</a>
+              <NavLink  className='link' >Home</NavLink>
             </li>
             <li>
-              <a  className='link' >Skills</a>
+              <NavLink className='link' >Skills</NavLink>
             </li>
             <li>
-              <a className='link' >Projects</a>
+              <NavLink className='link' >Projects</NavLink>
             </li>
             <li>
-              <a  className='link' >Contact</a>
+              <NavLink className='link' >Contact</NavLink>
             </li>
           </ul>
         </nav>
