@@ -8,21 +8,21 @@ const Header = () => {
     <header>
       <div className="sub-container header">
         <div className="site-logo">
-          <a href='/#me' className='home-link'>addisPictures</a>
+          <a  className='home-link'>addisPictures</a>
         </div>
         <nav className="navigations">
           <ul>
             <li>
-              <a href='/#me' className='link' >Home</a>
+              <a  className='link' >Home</a>
             </li>
             <li>
-              <a href='/#skills' className='link' >Skills</a>
+              <a  className='link' >Skills</a>
             </li>
             <li>
-              <a href='/#projects' className='link' >Projects</a>
+              <a className='link' >Projects</a>
             </li>
             <li>
-              <a href='/#contacts' className='link' >Contact</a>
+              <a  className='link' >Contact</a>
             </li>
           </ul>
         </nav>
