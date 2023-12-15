@@ -396,7 +396,7 @@ header .header .user-container .profile-img {
 }
 .services-con .service-list .service {
   margin: 0.13em 0.5em;
-  background: transparent;
+  background: white;
   padding: 0.35em;
   cursor: pointer;
   position: relative;
