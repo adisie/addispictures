@@ -1,14 +1,30 @@
 
+import Typed from 'react-typed'
+import {NavLink} from 'react-router-dom'
+import { FaFilePdf } from "react-icons/fa"
+
 const Me = () => {
     return ( 
         <div className='me-con'  id="me">
             <div className="me-text">
-                <h3>Hi, I'm</h3>
-                <h1>Addis Fanta</h1>
-                <h3>MENR-STACK DEVELOPER</h3>
+                <span className='introduction'>Hi, my name is</span>
+                <h3 className='my-name'>Addis Fenta</h3>
+                <h4>I'm a <span className='animated-text'> 
+                    <Typed 
+                    strings={["Develeoper","Freelancer","Designer"]} 
+                    typeSpeed={150} 
+                    backSpeed={100}
+                    loop
+                    />
+                    </span>
+                </h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque iusto a modi dolore consequatur minus aliquam, amet cum explicabo fuga delectus laudantium libero. Voluptatibus doloremque obcaecati maiores, in possimus enim odit architecto porro? Eius et magnam debitis quisquam exercitationem at ex natus cum eveniet ea, animi molestiae vero, expedita magni laudantium esse aperiam ad consectetur unde! A vitae nostrum ex nobis repellat facere, rem ipsum consectetur culpa, sunt soluta. Deleniti numquam dolorem sapiente corrupti recusandae eaque eum architecto iste omnis harum, tenetur natus voluptatum illo aliquam necessitatibus ex rerum dolor amet nihil ad voluptates fuga aperiam libero. Impedit, magni voluptates?
+                    A passionated <span className='mern'>mern</span> stack developer, graduated in <span className='software'>software engineering</span> and specialized in web-desinge and implementation, with excellent expreience in responsive web and rest-api developemnt. 
                 </p>
+                <div className="link-controllers">
+                    <NavLink className='cv-link'><FaFilePdf className='icon'/><span></span>my cv</NavLink>
+                    <NavLink className='cv-link'><span></span>talk me</NavLink>
+                </div>
             </div>
             <div className="me-img">
                 
