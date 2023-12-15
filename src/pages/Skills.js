@@ -8,7 +8,10 @@ import ThemeSwitcher from "./sub-pages/skills/ThemeSwitcher"
 const Skills = () => {
     return ( 
         <div className="skills-con">
-            <h3 id='skills'>CSS shows</h3>
+            <h3 id='skills'>some showcases</h3>
+            <p className="skill-intro">
+                Web developemnt is my passion, designing web stuffs using web-dev thechnology HTML, CSS, SCSS and JS is really fun, some of the funny things . . . 
+            </p>
             <div className="skill-list">
                 <Spinner />
                 <FormValidation />

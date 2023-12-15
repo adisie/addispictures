@@ -28,14 +28,14 @@ const ThemeSwitcher = () => {
                 <div className="left cont-lr" style={{background: pageTheme.hbgc,transition: '1s'}}>
                   <h5 style={{color: pageTheme.htc,transition: '1s'}}>Frontend</h5>
                   <p style={{color: pageTheme.htc,transition: '1s'}}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aspernatur voluptatem quas magnam ut dignissimos vitae! Ullam nobis perferendis deserunt id iure dolore quas vero expedita nisi reiciendis? Voluptates, quod. Dicta, architecto!
+                    Professional react js developer, familiar with react technologies - Hooks, and Redux for state management
                   </p>
                 </div>
 
                 <div className="right cont-lr" style={{background: pageTheme.hbgc,transition: '1s'}}>
                   <h5 style={{color: pageTheme.htc,transition: '1s'}}>Backend</h5>
                   <p style={{color: pageTheme.htc,transition: '1s'}}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aspernatur voluptatem quas magnam ut dignissimos vitae! Ullam nobis perferendis deserunt id iure dolore quas vero expedita nisi reiciendis? Voluptates, quod. Dicta, architecto!
+                    backend development using Node JS alog with Express JS, and MONGO DB database
                   </p>
                 </div>
 

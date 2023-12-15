@@ -3,7 +3,7 @@
 const Spinner = () => {
     return ( 
         <div className="skill spinner-con">
-            <h4>Spinner</h4>
+            <h4>Spinner/Loader</h4>
             <div className="spinner">
                 <div className="ring">
                 </div>

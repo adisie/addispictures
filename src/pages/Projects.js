@@ -8,14 +8,18 @@ const Projects = () => {
       <div className="project-list">
         <div className="project ishare">
             <h4>ISHARE</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quis laboriosam expedita voluptatum eos quibusdam maiores ratione voluptatem dignissimos illo exercitationem a dolorum ex, provident assumenda explicabo neque aut tempore excepturi voluptate?</p>
+            <p>
+              This project is developed for idea-sharing and/or information-sharing purpose, any one can create an account for him/her self and can manage his/her profile, plus the systme allows a user to add their own idia and share among others.
+            </p>
             <div className="btn-container">
                 <NavLink className='project-link'><span></span>View Project</NavLink>
             </div>
         </div>
         <div className="project gabi-store">
             <h4>GABI-STORE</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quis laboriosam expedita voluptatum eos quibusdam maiores ratione voluptatem dignissimos illo exercitationem a dolorum ex, provident assumenda explicabo neque aut tempore excepturi voluptate?</p>
+            <p>
+              An e-commerce project, it provides ethiopian tradional clothes for customers, where any customer from anywhere can vist the store and order his/her desiger
+            </p>
             <button>on going project</button>
         </div>
       </div>

@@ -14,7 +14,7 @@ const Services = () => {
                 <h4>Frontend Development</h4>
                 <FaDesktop className="icon"/>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatem totam nulla vitae, numquam dolore quaerat praesentium! Consequuntur iste nisi quod nemo, 
+                    responsive web design using REACT JS, CSS and SCSS
                 </p>
             </div>
 
@@ -22,7 +22,7 @@ const Services = () => {
                 <h4>Backend Development</h4>
                 <SiServerless className="icon"/>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatem totam nulla vitae, numquam dolore quaerat praesentium! Consequuntur iste nisi quod nemo, 
+                    rest-api developemnt using NODE JS/EXPRESS JS  
                 </p>
             </div>
             
@@ -30,7 +30,7 @@ const Services = () => {
                 <h4>Database Management</h4>
                 <FaDatabase className="icon"/>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatem totam nulla vitae, numquam dolore quaerat praesentium! Consequuntur iste nisi quod nemo, 
+                    Excellent experience in  MYSQL and MONGODB BATABASE stystems
                 </p>
             </div>
             
@@ -38,7 +38,7 @@ const Services = () => {
                 <h4>Tutoring</h4>
                 <IoSchoolSharp className="icon"/>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatem totam nulla vitae, numquam dolore quaerat praesentium! Consequuntur iste nisi quod nemo, 
+                    skill share through tutoring and willingness to learn from it 
                 </p>
             </div>
         </div>
