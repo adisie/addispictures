@@ -12,7 +12,7 @@ const Projects = () => {
               This project is developed for idea-sharing and/or information-sharing purpose, any one can create an account for him/her self and can manage his/her profile, plus the systme allows a user to add their own idia and share among others.
             </p>
             <div className="btn-container">
-                <NavLink className='project-link'><span></span>View Project</NavLink>
+                <NavLink className='project-link' to='https://github.com/adisie/ishare' target="_blank"><span></span>go to project</NavLink>
             </div>
         </div>
         <div className="project gabi-store">

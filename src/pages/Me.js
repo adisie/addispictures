@@ -3,6 +3,8 @@ import Typed from 'react-typed'
 import {NavLink} from 'react-router-dom'
 import { FaFilePdf } from "react-icons/fa"
 
+import CV from '../assets/pdfs/my-cv.pdf'
+
 const Me = () => {
     return ( 
         <div className='me-con'  id="me">
@@ -22,8 +24,8 @@ const Me = () => {
                     A passionated <span className='mern'>mern</span> stack developer, graduated in <span className='software'>software engineering</span> and specialized in web-desinge and implementation, with excellent expreience in responsive web and rest-api developemnt. 
                 </p>
                 <div className="link-controllers">
-                    <NavLink className='cv-link'><FaFilePdf className='icon'/><span></span>my cv</NavLink>
-                    <NavLink className='cv-link'><span></span>talk me</NavLink>
+                    <NavLink className='cv-link' to={CV} download='addis-cv' target='_blank'><FaFilePdf className='icon'/><span></span>my cv</NavLink>
+                    <NavLink to='mailto:adisiefenta23@gmail.com' className='cv-link'><span></span>talk me</NavLink>
                 </div>
             </div>
             <div className="me-img">

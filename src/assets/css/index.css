@@ -396,7 +396,7 @@ header .header .user-container .profile-img {
 }
 .services-con .service-list .service {
   margin: 0.13em 0.5em;
-  background: white;
+  background: rgb(227, 227, 227);
   padding: 0.35em;
   cursor: pointer;
   position: relative;
@@ -628,13 +628,12 @@ header .header .user-container .profile-img {
   position: absolute;
   left: 35%;
   top: 15%;
-  transform: translatex(-50%);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0.85em;
   border-radius: 0.3em;
-  background: rgb(2, 2, 85);
+  background: rgb(7, 85, 55);
   transition: 1.3s;
   transform: scale(0);
 }
@@ -785,11 +784,17 @@ header .header .user-container .profile-img {
 }
 
 @media screen and (max-width: 750px) {
+  .skills-con .skill-intro {
+    width: 75%;
+  }
   .skills-con .skill-list .form-con .form form .input-controll {
     width: 70%;
   }
 }
 @media screen and (max-width: 680px) {
+  .skills-con .skill-intro {
+    width: 85%;
+  }
   .skills-con .skill-list .spinner-con,
   .skills-con .skill-list .form-con,
   .skills-con .skill-list .theme-con {
