@@ -16,7 +16,7 @@ const Contacts = () => {
                 <NavLink className='link'><FaPhone className='icon'/>Phone: +251905915180</NavLink>
             </li>
             <li>
-                <NavLink className='link'><MdEmail className='icon'/>Email: adisiefenta23@gmail.com</NavLink>
+                <NavLink className='link' to='mailto:adisiefenta64@gmail.com'><MdEmail className='icon'/>Email: adisiefenta64@gmail.com</NavLink>
             </li>
         </ul>
         <div className="links">
