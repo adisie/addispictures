@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/addispictures/static/css/main.a60c10e1.css",
-    "main.js": "/addispictures/static/js/main.ae8dbf38.js",
+    "main.css": "/addispictures/static/css/main.1a5e5147.css",
+    "main.js": "/addispictures/static/js/main.d20f29f7.js",
     "static/media/addis-1.jpg": "/addispictures/static/media/addis-1.f40254d4de482ffbbfad.jpg",
     "static/media/addis-7.jpg": "/addispictures/static/media/addis-7.1bf6b92b64441f76a7c6.jpg",
     "static/media/addis-9.jpg": "/addispictures/static/media/addis-9.d5a7be680311f6d61bf6.jpg",
@@ -9,11 +9,11 @@
     "static/media/haddis_23.jpg": "/addispictures/static/media/haddis_23.f3d3b7d9c7ed3ad7526b.jpg",
     "static/media/share-4.jpg": "/addispictures/static/media/share-4.af56ea6bf1008ec4c38e.jpg",
     "index.html": "/addispictures/index.html",
-    "main.a60c10e1.css.map": "/addispictures/static/css/main.a60c10e1.css.map",
-    "main.ae8dbf38.js.map": "/addispictures/static/js/main.ae8dbf38.js.map"
+    "main.1a5e5147.css.map": "/addispictures/static/css/main.1a5e5147.css.map",
+    "main.d20f29f7.js.map": "/addispictures/static/js/main.d20f29f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a60c10e1.css",
-    "static/js/main.ae8dbf38.js"
+    "static/css/main.1a5e5147.css",
+    "static/js/main.d20f29f7.js"
   ]
 }
