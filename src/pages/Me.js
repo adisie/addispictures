@@ -25,7 +25,7 @@ const Me = () => {
                 </p>
                 <div className="link-controllers">
                     <NavLink className='cv-link' to={CV} download='addis-cv' target='_blank'><FaFilePdf className='icon'/><span></span>download cv</NavLink>
-                    <NavLink to='mailto:adisiefenta23@gmail.com' className='cv-link'><span></span>talk me</NavLink>
+                    <NavLink to='mailto:adisiefenta64@gmail.com' className='cv-link'><span></span>talk me</NavLink>
                 </div>
             </div>
             <div className="me-img">
