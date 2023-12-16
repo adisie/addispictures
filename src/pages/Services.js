@@ -8,7 +8,7 @@ import { IoSchoolSharp } from "react-icons/io5"
 const Services = () => {
   return (
     <div className='services-con'>
-        <h3><FaRegHandshake className="service-icon"/>Services</h3>
+        <h3><FaRegHandshake className="service-icon" id="services"/>Services</h3>
         <div className="service-list">
             <div className="service">
                 <h4>Frontend Development</h4>

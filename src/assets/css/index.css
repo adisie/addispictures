@@ -886,8 +886,8 @@ header .header .user-container .profile-img {
   text-decoration: none;
   position: relative;
   color: white;
-  border: 2px solid rgb(7, 85, 55);
-  padding: 0.25em 1.3em;
+  border: 1px solid rgb(7, 85, 55);
+  padding: 0.35em 1.3em;
   border-radius: 0.3em;
   cursor: pointer;
   z-index: 3;
@@ -916,13 +916,13 @@ header .header .user-container .profile-img {
   background-size: cover;
 }
 .projects-con .project-list .project.ishare .project-link {
-  border-color: rgb(255, 123, 0);
-  color: rgb(255, 123, 0);
-  font-weight: bold;
+  border-color: white;
+  border-width: 1px;
+  color: white;
   margin: 0.85em 3em;
 }
 .projects-con .project-list .project.ishare .project-link span {
-  background: white;
+  background: rgb(7, 85, 55);
 }
 .projects-con .project-list .project.ishare h4, .projects-con .project-list .project.ishare p {
   color: white;

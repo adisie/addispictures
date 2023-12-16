@@ -1,33 +1,28 @@
-import {NavLink} from 'react-router-dom'
+
 // my image
 import myProfileImage from '../assets/images/haddis_23.jpg'
 
 const Header = () => {
-  // active link style
-  const activeLinkStyle = ({isActive}) => {
-    return {
-      fontWeight: isActive ? "bold" : "normal"
-    }
-  }
+
   return (
     <header>
       <div className="sub-container header">
         <div className="site-logo">
-          <NavLink to='/' className='home-link'>addisPictures</NavLink>
+          <a href='#me' className='home-link'>addisPictures</a>
         </div>
         <nav className="navigations">
           <ul>
             <li>
-              <NavLink to='/' className='link' >Home</NavLink>
+              <a href='#me' className='link' >Home</a>
             </li>
             <li>
-              <NavLink className='link' >Skills</NavLink>
+              <a href='#services ' className='link' >Services</a>
             </li>
             <li>
-              <NavLink className='link' >Projects</NavLink>
+              <a href='#projects' className='link' >Projects</a>
             </li>
             <li>
-              <NavLink className='link' to='/#contacts' >Contact</NavLink>
+              <a className='link' href='#contacts' >Contacts</a>
             </li>
           </ul>
         </nav>
