@@ -13,7 +13,7 @@ const Me = () => {
                 <h3 className='my-name'>Addis Fenta</h3>
                 <h4>I'm a <span className='animated-text'> 
                     <Typed 
-                    strings={["Develeoper","ደቨሎፐር","Freelancer","ፍሪላንሰር","Designer","ዲዛይነር"]} 
+                    strings={["Developer","ደቨሎፐር","Freelancer","ፍሪላንሰር","Designer","ዲዛይነር"]} 
                     typeSpeed={150} 
                     backSpeed={100}
                     loop
