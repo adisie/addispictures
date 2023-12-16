@@ -13,7 +13,7 @@ const Contacts = () => {
       <div className="contacts-list">
         <ul>
             <li>
-                <NavLink className='link'><FaPhone className='icon'/>Phone: +251923996736</NavLink>
+                <NavLink className='link'><FaPhone className='icon'/>Phone: +251905915180</NavLink>
             </li>
             <li>
                 <NavLink className='link'><MdEmail className='icon'/>Email: adisiefenta23@gmail.com</NavLink>

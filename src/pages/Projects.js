@@ -18,7 +18,7 @@ const Projects = () => {
         <div className="project gabi-store">
             <h4>GABI-STORE</h4>
             <p>
-              An e-commerce project, it provides ethiopian tradional clothes for customers, where any customer from anywhere can vist the store and order his/her desiger
+              An e-commerce project, it provides ethiopian traditional clothes for customers, where any customer from anywhere can vist the store and order his/her desire
             </p>
             <button>On going</button>
         </div>

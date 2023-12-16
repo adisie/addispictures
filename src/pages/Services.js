@@ -22,7 +22,7 @@ const Services = () => {
                 <h4>Backend Development</h4>
                 <SiServerless className="icon"/>
                 <p>
-                    rest-api developemnt using NODE JS/EXPRESS JS  
+                    rest-api development using NODE JS/EXPRESS JS  
                 </p>
             </div>
             
@@ -30,7 +30,7 @@ const Services = () => {
                 <h4>Database Management</h4>
                 <FaDatabase className="icon"/>
                 <p>
-                    Excellent experience in  MYSQL and MONGODB BATABASE stystems
+                    Excellent experience in  MYSQL and MONGODB BATABASE systems
                 </p>
             </div>
             
@@ -38,7 +38,7 @@ const Services = () => {
                 <h4>Tutoring</h4>
                 <IoSchoolSharp className="icon"/>
                 <p>
-                    skill share through tutoring and willingness to learn from it 
+                    skill share through tutoring and willingness to learn from others 
                 </p>
             </div>
         </div>

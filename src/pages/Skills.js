@@ -10,7 +10,7 @@ const Skills = () => {
         <div className="skills-con">
             <h3 id='skills'>some showcases</h3>
             <p className="skill-intro">
-                Web developemnt is my passion, designing web stuffs using web-dev thechnology HTML, CSS, SCSS and JS is really fun, some of the funny things . . . 
+                Web developemnt is my passion, designing web stuffs using web-dev thechnologies HTML, CSS, SCSS and JS is really fun, some of the funny things . . . 
             </p>
             <div className="skill-list">
                 <Spinner />
